@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Exercise01</string>
+    <string name="app_name">Exercise 01</string>
+    <string name="id_number">ID: 24104955</string>
+    <string name="chairwoman_name">Ms. Anggie</string>
+    <string name="department_name">College of Information Technology</string>
+    <string name="btn_show_chairwoman">Show Chairwoman</string>
 </resources>
