@@ -3,31 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
-
-    <Button
-        android:id="@+id/batteryBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Battery" />
-
-    <Button
-        android:id="@+id/memoryBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Memory" />
-
-    <Button
-        android:id="@+id/connectivityBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Connectivity" />
+    android:gravity="center"
+    android:padding="24dp">
 
     <TextView
-        android:id="@+id/infoText"
-        android:layout_width="match_parent"
+        android:id="@+id/tvDepartment"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textSize="18sp" />
+        android:text="@string/department_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnChangeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_chairwoman"/>
 
 </LinearLayout>
